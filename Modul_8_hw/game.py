@@ -39,7 +39,6 @@ def score_game(find_number) -> int:
     """
     count_ls = []
     random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
-    #print(random_array)
     for number in random_array:
         count_ls.append(find_number(number))
 
